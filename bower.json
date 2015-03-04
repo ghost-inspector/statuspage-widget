@@ -16,10 +16,9 @@
     "type": "git",
     "url": "git://github.com/ghost-inspector/statuspage-widget.git"
   },
-  "author": {
-    "name": "Justin Klemm",
-    "url": "https://ghostinspector.com"
-  },
+  "authors": [
+    { "name": "Justin Klemm", "email": "justin@ghostinspector.com" }
+  ],
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "~1.9.0"
@@ -30,6 +29,5 @@
     "*.coffee",
     ".*"
   ],
-  "license": "MIT",
-  "readmeFilename": "README.md"
+  "license": "MIT"
 }
