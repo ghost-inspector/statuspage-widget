@@ -1,0 +1,37 @@
+.status-page-container {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    z-index: 100;
+}
+
+.status-page-link {
+    display: block;
+    padding: 10px;
+    background-color: #888;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.status-page-link.status-page-indicator-none {
+    background-color: #2fcc66;
+}
+
+.status-page-link.status-page-indicator-minor {
+    background-color: #f1c40f;
+}
+
+.status-page-link.status-page-indicator-major {
+    background-color: #e67e22;
+}
+
+.status-page-link.status-page-indicator-critical {
+    background-color: #e74c3c;
+}

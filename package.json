@@ -1,0 +1,32 @@
+{
+  "name": "statuspage-widget",
+  "version": "1.0.0",
+  "main": "./dist/widget.js",
+  "description": "This is an unofficial widget for use with the StatusPage.io service. It queries StatusPage.io for the status of your page and display a configurable tab on your website.",
+  "keywords": [
+    "status-page-io",
+    "statuspageio",
+    "status-page",
+    "statuspage",
+    "status",
+    "server"
+  ],
+  "homepage": "https://github.com/ghostinspector/statuspage-widget",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ghost-inspector/statuspage-widget.git"
+  },
+  "author": {
+    "name": "Justin Klemm",
+    "url": "https://ghostinspector.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.9.0"
+  },
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -b -c -o dist widget.coffee"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
