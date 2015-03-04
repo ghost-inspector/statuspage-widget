@@ -11,7 +11,7 @@
     "status",
     "server"
   ],
-  "homepage": "https://github.com/ghostinspector/statuspage-widget",
+  "homepage": "https://github.com/ghost-inspector/statuspage-widget",
   "repository": {
     "type": "git",
     "url": "git://github.com/ghost-inspector/statuspage-widget.git"
